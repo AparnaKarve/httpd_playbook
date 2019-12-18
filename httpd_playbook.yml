@@ -1,0 +1,8 @@
+---
+- name: use galaxy httpd role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: bertvv.httpd 
